@@ -1,0 +1,25 @@
+{
+  "name": "参考買い目の規則",
+  "version": "v2",
+  "start_at": "2026-09-26T00:00:00+09:00",
+  "unit_yen": 100,
+  "renka_max": 2,
+  "types": [
+    { "key": "wide", "label": "堅め", "bet": "wide", "form": "axis", "axis": "honmei", "partners": ["taikou", "tanana"] },
+    { "key": "umatan", "label": "本線", "bet": "umatan_multi", "form": "axis", "axis": "honmei", "partners": ["taikou", "tanana", "renka"] },
+    { "key": "sanrenpuku", "label": "広め", "bet": "sanrenpuku", "form": "box", "horses": ["honmei", "taikou", "tanana", "renka"], "min_starters": 8 },
+    { "key": "yume", "label": "夢", "bet": "sanrenpuku", "form": "formation", "first": ["honmei"], "second": ["taikou", "tanana", "renka"], "third": ["ana"], "ana_max": 2, "min_starters": 8, "start_at": "2026-09-26T00:00:00+09:00" }
+  ],
+  "notes": [
+    "買い目は、発走前に記録した印（honmei=◎・taikou=○・tanana=▲・renka=△・ana=☆）とこの規則だけで機械的に決まる。レースごとに選び直さない。☆は yume だけで使う",
+    "renka（△）は印の順で renka_max 頭まで使う。ana（☆）は印の順で ana_max 頭まで使う（予想の投稿で馬番と人気を見せる☆と同じ馬）",
+    "◎○▲がそろわないレースには、どの型も出さない",
+    "min_starters のある型は、組んだ時点の出走頭数（取消・除外を除く）がそれより少なければ出さない",
+    "wide: ◎と相手のワイド（◎-○・◎-▲の2点）",
+    "umatan_multi: ◎と相手の馬単を両方向（◎⇔○・◎⇔▲・◎⇔△。△2頭で8点・1頭で6点・0頭で4点）",
+    "sanrenpuku（box）: 挙げた馬の3連複のBOX（◎○▲△△で10点・△1頭で4点・△0頭で1点）",
+    "yume（formation）: 3連複フォーメーション ◎ - ○▲△ - ☆（△は印の順で最大2頭、☆は印の順で最大2頭。点数は列の頭数のかけ算で、△2頭・☆2頭なら8点。☆のいないレースでは出しません）。first・second・third の列から1頭ずつ選ぶ。2026-09-26T00:00:00+09:00 以後に発走するレースから使う",
+    "1点 unit_yen 円の仮計算で、実際の購入ではない。取消・除外の馬を含む点は返還として仮計算の額から外す。競走中止・失格は返還にしない",
+    "start_at 以後に発走するレースから使う（型に start_at があれば、その型はその時刻から）。組み方を変えるときは version を上げ、別のファイルにする（前の版のファイルは変えない）"
+  ]
+}
