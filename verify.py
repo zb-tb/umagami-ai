@@ -9,7 +9,7 @@
 使い方:
   git clone -b ledger https://github.com/<owner>/<repo>.git ledger
   python3 verify.py ledger                 # 全日
-  python3 verify.py ledger --date 20261003 # 1日だけ
+  python3 verify.py ledger --date 20260926 # 1日だけ
   python3 verify.py --payload reveal.json  # 開封ファイル（または中身のJSON）のハッシュを出す
 
 指紋の計算:

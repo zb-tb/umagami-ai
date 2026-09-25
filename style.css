@@ -1,0 +1,60 @@
+/* 採点ページの見た目（site-builder がそのまま style.css として出す） */
+:root {
+  --bg: #fbfaf7;
+  --fg: #1f2328;
+  --muted: #5d6470;
+  --line: #d9d6cf;
+  --panel: #ffffff;
+  --accent: #245b8f;
+  --warn-bg: #fff6df;
+  --warn-line: #e3c77a;
+  --trial: #7a5b00;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #15171a;
+    --fg: #e6e6e3;
+    --muted: #a3a8b0;
+    --line: #34383e;
+    --panel: #1d2024;
+    --accent: #8cb8e6;
+    --warn-bg: #2a2518;
+    --warn-line: #6b5a2a;
+    --trial: #e0c068;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+}
+a { color: var(--accent); }
+.site-header, main, footer { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+.site-header { padding-top: 16px; border-bottom: 1px solid var(--line); }
+.site-name { margin: 0; font-weight: 700; }
+.site-name a { color: var(--fg); text-decoration: none; }
+nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 16px; padding: 0; margin: 8px 0 12px; }
+h1 { font-size: 1.5rem; margin: 24px 0 12px; }
+h2 { font-size: 1.2rem; margin: 32px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--line); }
+h3 { font-size: 1.05rem; margin: 20px 0 6px; }
+.notice { background: var(--warn-bg); border: 1px solid var(--warn-line); border-radius: 6px; padding: 10px 14px; margin: 12px 0 20px; }
+.notice p { margin: 2px 0; }
+.muted { color: var(--muted); font-size: 0.92rem; }
+.trial { color: var(--trial); font-weight: 700; }
+.table-wrap { overflow-x: auto; margin: 8px 0 16px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+th, td { padding: 6px 10px; border-bottom: 1px solid var(--line); text-align: left; white-space: nowrap; vertical-align: top; }
+th { font-weight: 600; background: color-mix(in srgb, var(--panel) 85%, var(--line)); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+tr:last-child td { border-bottom: none; }
+code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.88em; }
+pre { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; }
+footer { margin-top: 40px; padding-bottom: 40px; border-top: 1px solid var(--line); }
+footer h2 { font-size: 1rem; }
+footer section { margin-bottom: 8px; }
+ul.plain { padding-left: 1.2em; }

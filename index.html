@@ -1,3 +1,62 @@
 <!doctype html>
-<html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>採点ページ</title>
-<body style="font-family:sans-serif;max-width:40em;margin:3em auto;padding:0 1em;line-height:1.7"><h1>採点ページ</h1><p>準備中です。</p></body></html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>累計と日別の一覧｜採点ページ</title>
+<meta name="description" content="採点ページ: AIの予想の◎と1番人気を毎朝採点した全件の記録">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="page-index">
+<header class="site-header">
+<p class="site-name"><a href="index.html">採点ページ</a></p>
+<nav><ul><li><a href="index.html">累計と日別の一覧</a></li><li><a href="purchases.html">実購入</a></li><li><a href="method.html">計算方法と確かめ方</a></li></ul></nav>
+</header>
+<main>
+<h1>累計と日別の一覧</h1>
+<section class="notice" aria-label="注意書き"><p>予想は参考情報です。的中や利益は約束しません。</p><p>馬券は20歳になってから、無理のない範囲で。</p><p>のめり込みが心配なときの相談先: JRA「ギャンブル等依存症対策」 <a href="https://www.jra.go.jp/company/social/disorder/">https://www.jra.go.jp/company/social/disorder/</a></p><p>JRA・地方競馬の主催者とは関係ありません。</p></section>
+<p>AIの予想の◎と、確定した1番人気を、同じ物差しで毎朝機械的に採点します。外れも消さずに全件を載せます。</p>
+<h2>公開開始からの累計</h2>
+<p>公開開始（9/26）からの累計: 0R。GitHub側の時刻で発走前に記録できたレースは、まだありません。</p>
+<p class="muted">数えなかったレース: 0R（採点はできたが、GitHub側の時刻で発走前の記録を確かめられなかったもの）。</p>
+<h2>参考買い目（3つの型）の通算</h2>
+<p>予想の投稿に載せた参考買い目（堅め＝ワイド◎-○▲、本線＝馬単マルチ◎⇔○▲△、広め＝3連複◎○▲△△BOX）を、封印した印から機械的に組み、全レースを採点します。1点100円の仮計算で、実際の購入ではありません。規則は<a href="reference-tickets-v1.json">reference-tickets-v1.json</a>、数え方は<a href="method.html#reference-tickets">計算方法</a>にあります。</p>
+<p>9/26に発走するレースから出しています。通算に数えたレースはまだありません。</p>
+<h2>実購入（運営者が購入）</h2>
+<p>記録 0レース・買い目0件（運営者が購入し、登録した分）。仮の成績とは合算しません。<a href="purchases.html">実購入のページ</a></p>
+<h2>日別の一覧</h2>
+<p>まだ記録がありません。</p>
+<h2>公開前の参考値（社内の記録）</h2>
+<p>外部に事前の記録はありません（自社の記録だけ）。公開開始からの累計とは合算しません。期間 2026-06-02〜2026-09-24（8/20〜9/8 は記録なし）。</p>
+<div class="table-wrap"><table><thead><tr><th>区分</th><th>対象</th><th class="num">件数</th><th class="num">勝率</th><th class="num">3着内率</th><th class="num">単勝回収率</th><th class="num">複勝回収率</th></tr></thead><tbody>
+<tr><td>全体</td><td>◎</td><td class="num">3575R</td><td class="num">34.7%</td><td class="num">65.7%</td><td class="num">77.3%（3486R）</td><td class="num">82.0%（3483R）</td></tr>
+<tr><td>全体</td><td>1番人気</td><td class="num">3575R</td><td class="num">42.7%</td><td class="num">73.6%</td><td class="num">81.5%（3486R）</td><td class="num">88.4%（3483R）</td></tr>
+<tr><td>中央</td><td>◎</td><td class="num">836R</td><td class="num">29.8%</td><td class="num">58.3%</td><td class="num">71.9%（836R）</td><td class="num">77.9%（836R）</td></tr>
+<tr><td>中央</td><td>1番人気</td><td class="num">836R</td><td class="num">35.3%</td><td class="num">65.8%</td><td class="num">81.9%（836R）</td><td class="num">85.1%（836R）</td></tr>
+<tr><td>地方</td><td>◎</td><td class="num">2739R</td><td class="num">36.2%</td><td class="num">68.0%</td><td class="num">79.0%（2650R）</td><td class="num">83.2%（2647R）</td></tr>
+<tr><td>地方</td><td>1番人気</td><td class="num">2739R</td><td class="num">45.0%</td><td class="num">76.0%</td><td class="num">81.3%（2650R）</td><td class="num">89.5%（2647R）</td></tr>
+</tbody></table></div>
+<p class="muted">予想3982R → 採点3575R。除外: 結果なし259R、勝ち馬の保存オッズと単勝払戻の食い違い76R、◎の取消・中止など72R。回収率の分母からは、地方で払戻の保存が無い89Rを除いています。</p>
+<ul class="plain muted"><li>◎ = state の marks.honmei（封印の照合はしていない）</li><li>1番人気 = 確定の単勝人気1位（無ければ確定オッズ最小）。同じ人気なら確定オッズの低い方</li><li>回収率 = netkeiba-payouts キャッシュの単勝・複勝の払戻、100円ずつ買ったと仮定した計算</li><li>払戻の保存が無いレースは勝率にだけ入れ、回収率の分母から外す</li><li>勝ち馬の保存オッズと単勝払戻が食い違うレースを除外している（結果を見た後の除外。v2で外す予定）</li></ul>
+<p class="muted">回収率は、実際の払戻で100円ずつ買ったと仮定した計算で、実際の購入ではありません。</p>
+<h2>確かめ方</h2>
+<p>発走前に、予想の中身の指紋（sha256）を公開リポジトリに記録しています。結果の後に中身を出すので、誰でも計算し直して確かめられます。手順は<a href="method.html#verify">確かめ方</a>にあります。</p>
+</main>
+<footer>
+<section><h2>のめり込みが心配なときの相談先</h2>
+<p>JRA「ギャンブル等依存症対策」 <a href="https://www.jra.go.jp/company/social/disorder/">https://www.jra.go.jp/company/social/disorder/</a></p>
+<p class="muted">地方競馬の相談先は、公式で確かめてから載せます。</p></section>
+<section><h2>計算方法（要点）</h2>
+<ul class="plain">
+<li>◎は、発走前に記録した予想の◎だけを使います（直前に◎が変わっても、記録していない◎は使いません）。</li>
+<li>1番人気は、確定した単勝人気の1位です。同じ人気なら確定オッズの低い方、さらに馬番の小さい方です。</li>
+<li>回収率は、実際の払戻で100円ずつ買ったと仮定した計算で、実際の購入ではありません。</li>
+<li>公開開始からの累計には、GitHub側の時刻で発走前に記録できたレースだけを数えます。</li>
+</ul>
+<p><a href="method.html">計算方法・除外のルール・確かめ方の詳しい説明</a></p></section>
+<section><h2>照合不成立の件数</h2>
+<p>照合不成立（朝や発走前の照合で止まり、予想を出していないレース）: 0件（まだ記録なし、予想0件のうち）</p></section>
+<p class="muted">更新 9/25 22:30:00（日本時間）。販売はしていません。</p>
+</footer>
+</body>
+</html>
