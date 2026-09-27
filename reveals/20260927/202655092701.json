@@ -1,0 +1,52 @@
+{
+  "schema": "keiba-public-reveal-v1",
+  "race_id": "202655092701",
+  "date": "2026-09-27",
+  "versions": [
+    {
+      "version": 1,
+      "sha256": "f19abba47fa07927b115a582ab9a24baf71d2efe5f1be5e954f22dff30629379",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202655092701",
+        "date": "2026-09-27",
+        "venue": "佐賀",
+        "race_number": 1,
+        "post_time": "16:25",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 1,
+          "taikou": 6,
+          "tanana": 7,
+          "renka": [
+            4,
+            2
+          ],
+          "ana": [
+            8,
+            3
+          ]
+        },
+        "verify": "weight_pending",
+        "nonce": "af5f56168e9d41bf46855ad7c859a7c3"
+      }
+    }
+  ],
+  "result": {
+    "top3": [
+      {
+        "finish": 1,
+        "gate": 6
+      },
+      {
+        "finish": 2,
+        "gate": 1
+      },
+      {
+        "finish": 3,
+        "gate": 5
+      }
+    ]
+  },
+  "revealed_at": "2026-09-27T07:46:03.719Z"
+}
