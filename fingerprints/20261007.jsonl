@@ -50,3 +50,4 @@
 {"schema":"keiba-public-line-v1","race_id":"202644100707","version":1,"sha256":"0e2665b8af7c54bf50360e0e493ef29a9a0940e450cbde2e1c868a142178b179","recorded_at":"2026-10-07T07:00:02.643Z"}
 {"schema":"keiba-public-line-v1","race_id":"202630100705","version":2,"stage":"final","sha256":"3f156f78913bb323004435c8f3e1ab750ef187c834f3392e7a0287cf9e2fa73f","recorded_at":"2026-10-07T07:05:46.416Z"}
 {"schema":"keiba-public-line-v1","race_id":"202644100705","version":2,"stage":"final","sha256":"85cfb756aed09ad5963bb5011b9e9372a115900f436822419aa0602ea8bd93eb","recorded_at":"2026-10-07T07:05:51.213Z"}
+{"schema":"keiba-public-line-v1","race_id":"202647100711","version":2,"stage":"final","sha256":"92a9ec9334646a76c1cebf0a30924769f5555820330194cfc495454c753a6289","recorded_at":"2026-10-07T07:15:05.200Z"}
