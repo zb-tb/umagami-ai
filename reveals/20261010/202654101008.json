@@ -1,0 +1,82 @@
+{
+  "schema": "keiba-public-reveal-v1",
+  "race_id": "202654101008",
+  "date": "2026-10-10",
+  "versions": [
+    {
+      "version": 1,
+      "sha256": "0c006f7f5be38180f28e347f00e7691ec022dedea505b194a77900c5484bffe3",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202654101008",
+        "date": "2026-10-10",
+        "venue": "高知",
+        "race_number": 8,
+        "post_time": "19:20",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 1,
+          "taikou": 8,
+          "tanana": 5,
+          "renka": [
+            12,
+            11
+          ],
+          "ana": [
+            2,
+            9
+          ]
+        },
+        "verify": "weight_pending",
+        "nonce": "89823a384621b512ea370b3519fc6cd1"
+      }
+    },
+    {
+      "version": 2,
+      "stage": "final",
+      "sha256": "ff71d0514b803a9be6becca23ed4daf7c4cb50e54c056a0565ffe79c16fbf626",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202654101008",
+        "date": "2026-10-10",
+        "venue": "高知",
+        "race_number": 8,
+        "post_time": "19:20",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 10,
+          "taikou": 11,
+          "tanana": 12,
+          "renka": [
+            5,
+            8
+          ],
+          "ana": [
+            2,
+            9,
+            6
+          ]
+        },
+        "verify": "ok",
+        "nonce": "2e9c5dc5bee7993ad0e0694c7fa0d985"
+      }
+    }
+  ],
+  "result": {
+    "top3": [
+      {
+        "finish": 1,
+        "gate": 11
+      },
+      {
+        "finish": 2,
+        "gate": 1
+      },
+      {
+        "finish": 3,
+        "gate": 10
+      }
+    ]
+  },
+  "revealed_at": "2026-10-10T10:38:01.901Z"
+}
