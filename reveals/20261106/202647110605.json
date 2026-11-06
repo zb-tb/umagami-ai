@@ -1,0 +1,95 @@
+{
+  "schema": "keiba-public-reveal-v1",
+  "race_id": "202647110605",
+  "date": "2026-11-06",
+  "versions": [
+    {
+      "version": 1,
+      "sha256": "ebde54d33240baee3589d75f5a70265783fad40a3f443a5dc5bc2ea598b18125",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202647110605",
+        "date": "2026-11-06",
+        "venue": "笠松",
+        "race_number": 5,
+        "post_time": "12:30",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 2,
+          "taikou": 7,
+          "tanana": 8,
+          "renka": [
+            4,
+            5
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 7,
+            "tanana": 1,
+            "renka": [
+              6,
+              8
+            ]
+          }
+        },
+        "verify": "weight_pending",
+        "nonce": "d9b36a22c150446dbd3ef5718cb257e4"
+      }
+    },
+    {
+      "version": 2,
+      "stage": "final",
+      "sha256": "20c719b69e7f25157c9e1fa8eb70723209960867ee934daf787baa055bd18388",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202647110605",
+        "date": "2026-11-06",
+        "venue": "笠松",
+        "race_number": 5,
+        "post_time": "12:30",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 2,
+          "taikou": 8,
+          "tanana": 1,
+          "renka": [
+            7,
+            10
+          ],
+          "ana": [
+            9,
+            5,
+            3
+          ],
+          "upset": {
+            "taikou": 7,
+            "tanana": 6,
+            "renka": [
+              1,
+              4
+            ]
+          }
+        },
+        "verify": "ok",
+        "nonce": "8788f448fbd4285b77033dc4156ae4cb"
+      }
+    }
+  ],
+  "result": {
+    "top3": [
+      {
+        "finish": 1,
+        "gate": 2
+      },
+      {
+        "finish": 2,
+        "gate": 3
+      },
+      {
+        "finish": 3,
+        "gate": 4
+      }
+    ]
+  },
+  "revealed_at": "2026-11-06T03:45:00.865Z"
+}
