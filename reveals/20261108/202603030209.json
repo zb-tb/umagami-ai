@@ -1,0 +1,91 @@
+{
+  "schema": "keiba-public-reveal-v1",
+  "race_id": "202603030209",
+  "date": "2026-11-08",
+  "versions": [
+    {
+      "version": 1,
+      "sha256": "1d9d752b22f014098571f1e16ae59c9b9586cb0c911ca0cc0e7e5c9530e13f61",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202603030209",
+        "date": "2026-11-08",
+        "venue": "福島",
+        "race_number": 9,
+        "post_time": "14:10",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 9,
+          "taikou": 7,
+          "tanana": 3,
+          "renka": [
+            8,
+            16
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 7,
+            "tanana": 8,
+            "renka": [
+              3,
+              6
+            ]
+          }
+        },
+        "verify": "weight_pending",
+        "nonce": "903aacd31c2f37be701c15dca9c9db76"
+      }
+    },
+    {
+      "version": 2,
+      "stage": "final",
+      "sha256": "3edb8216807088ba24d6a1a0b0c3190dac1fc27aa9302dd4c0342add0f9b102e",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202603030209",
+        "date": "2026-11-08",
+        "venue": "福島",
+        "race_number": 9,
+        "post_time": "14:10",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 8,
+          "taikou": 9,
+          "tanana": 7,
+          "renka": [
+            3,
+            4
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 9,
+            "tanana": 14,
+            "renka": [
+              3,
+              4
+            ]
+          }
+        },
+        "verify": "ok",
+        "nonce": "b8edf069b43175e1509a7c9cf331b39c"
+      }
+    }
+  ],
+  "result": {
+    "top3": [
+      {
+        "finish": 1,
+        "gate": 13
+      },
+      {
+        "finish": 2,
+        "gate": 6
+      },
+      {
+        "finish": 3,
+        "gate": 9
+      }
+    ]
+  },
+  "revealed_at": "2026-11-08T05:24:02.236Z"
+}
