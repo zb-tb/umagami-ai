@@ -1,0 +1,91 @@
+{
+  "schema": "keiba-public-reveal-v1",
+  "race_id": "202603030204",
+  "date": "2026-11-08",
+  "versions": [
+    {
+      "version": 1,
+      "sha256": "52bd7b7dfbf6d0b02a1c5751d6ce01ad7846f04452b8551f0f965bd6f0442ef2",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202603030204",
+        "date": "2026-11-08",
+        "venue": "福島",
+        "race_number": 4,
+        "post_time": "11:15",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 1,
+          "taikou": 6,
+          "tanana": 5,
+          "renka": [
+            10,
+            4
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 6,
+            "tanana": 5,
+            "renka": [
+              10,
+              2
+            ]
+          }
+        },
+        "verify": "weight_pending",
+        "nonce": "efb3cf0358950b54ec0ee79abc79a753"
+      }
+    },
+    {
+      "version": 2,
+      "stage": "final",
+      "sha256": "fcf5878e3ec856f71cc33acfd3503e86cfb17a65e4f1d947a1f347468119956a",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202603030204",
+        "date": "2026-11-08",
+        "venue": "福島",
+        "race_number": 4,
+        "post_time": "11:15",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 6,
+          "taikou": 1,
+          "tanana": 10,
+          "renka": [
+            11,
+            5
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 10,
+            "tanana": 2,
+            "renka": [
+              1,
+              11
+            ]
+          }
+        },
+        "verify": "ok",
+        "nonce": "19425024184e72942703f16a812cce84"
+      }
+    }
+  ],
+  "result": {
+    "top3": [
+      {
+        "finish": 1,
+        "gate": 6
+      },
+      {
+        "finish": 2,
+        "gate": 3
+      },
+      {
+        "finish": 3,
+        "gate": 1
+      }
+    ]
+  },
+  "revealed_at": "2026-11-08T02:29:01.846Z"
+}
