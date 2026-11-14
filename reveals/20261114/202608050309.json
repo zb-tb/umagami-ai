@@ -1,0 +1,91 @@
+{
+  "schema": "keiba-public-reveal-v1",
+  "race_id": "202608050309",
+  "date": "2026-11-14",
+  "versions": [
+    {
+      "version": 1,
+      "sha256": "a2070fa3584d5aeb4ede495db95a8441d012ea8ebb7d69590b7d654c0e2160c9",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202608050309",
+        "date": "2026-11-14",
+        "venue": "京都",
+        "race_number": 9,
+        "post_time": "14:30",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 6,
+          "taikou": 10,
+          "tanana": 4,
+          "renka": [
+            7,
+            3
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 10,
+            "tanana": 4,
+            "renka": [
+              8,
+              1
+            ]
+          }
+        },
+        "verify": "weight_pending",
+        "nonce": "2b586d4341134b73eb6e6528ea71706b"
+      }
+    },
+    {
+      "version": 2,
+      "stage": "final",
+      "sha256": "2022d362120c34fc77292cae1e7da57ab6cb1a13f9aa849dd9f542272451a713",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202608050309",
+        "date": "2026-11-14",
+        "venue": "京都",
+        "race_number": 9,
+        "post_time": "14:30",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 10,
+          "taikou": 4,
+          "tanana": 6,
+          "renka": [
+            7,
+            8
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 8,
+            "tanana": 1,
+            "renka": [
+              4,
+              2
+            ]
+          }
+        },
+        "verify": "ok",
+        "nonce": "cb6ef9f6a720bfbfc08f896ec7957b9a"
+      }
+    }
+  ],
+  "result": {
+    "top3": [
+      {
+        "finish": 1,
+        "gate": 6
+      },
+      {
+        "finish": 2,
+        "gate": 10
+      },
+      {
+        "finish": 3,
+        "gate": 8
+      }
+    ]
+  },
+  "revealed_at": "2026-11-14T05:44:02.095Z"
+}
