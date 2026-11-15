@@ -1,0 +1,91 @@
+{
+  "schema": "keiba-public-reveal-v1",
+  "race_id": "202608050412",
+  "date": "2026-11-15",
+  "versions": [
+    {
+      "version": 1,
+      "sha256": "c4a04eeca396cad390c625c85cebf573d56032079e458312a6b017aaca3631a6",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202608050412",
+        "date": "2026-11-15",
+        "venue": "京都",
+        "race_number": 12,
+        "post_time": "16:25",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 7,
+          "taikou": 4,
+          "tanana": 5,
+          "renka": [
+            6,
+            3
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 5,
+            "tanana": 4,
+            "renka": [
+              3,
+              6
+            ]
+          }
+        },
+        "verify": "weight_pending",
+        "nonce": "3e10002d2956b265ffdecd3200b4d6e5"
+      }
+    },
+    {
+      "version": 2,
+      "stage": "final",
+      "sha256": "b12bc6f4d23ff9a35eae47f4e149cb9b29864b529cdf853851ee823e749efedd",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202608050412",
+        "date": "2026-11-15",
+        "venue": "京都",
+        "race_number": 12,
+        "post_time": "16:25",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 7,
+          "taikou": 11,
+          "tanana": 4,
+          "renka": [
+            16,
+            5
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 11,
+            "tanana": 4,
+            "renka": [
+              5,
+              16
+            ]
+          }
+        },
+        "verify": "ok",
+        "nonce": "f187ce19f58c85986891b6cae99c0381"
+      }
+    }
+  ],
+  "result": {
+    "top3": [
+      {
+        "finish": 1,
+        "gate": 16
+      },
+      {
+        "finish": 2,
+        "gate": 14
+      },
+      {
+        "finish": 3,
+        "gate": 4
+      }
+    ]
+  },
+  "revealed_at": "2026-11-15T07:41:03.273Z"
+}
