@@ -1,0 +1,91 @@
+{
+  "schema": "keiba-public-reveal-v1",
+  "race_id": "202608050605",
+  "date": "2026-11-22",
+  "versions": [
+    {
+      "version": 1,
+      "sha256": "d025ee0da20c7333767e96ff49c547d37e5a4c073032cb74868b36a6b70658bb",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202608050605",
+        "date": "2026-11-22",
+        "venue": "京都",
+        "race_number": 5,
+        "post_time": "12:25",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 9,
+          "taikou": 2,
+          "tanana": 11,
+          "renka": [
+            3,
+            1
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 2,
+            "tanana": 1,
+            "renka": [
+              11,
+              3
+            ]
+          }
+        },
+        "verify": "weight_pending",
+        "nonce": "84021fc1cce31e03dfa9993d7acb8ff9"
+      }
+    },
+    {
+      "version": 2,
+      "stage": "final",
+      "sha256": "918ca4362dae84d98870d2f71513361688d7e01dd84f35df2068c5c70a7055bd",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202608050605",
+        "date": "2026-11-22",
+        "venue": "京都",
+        "race_number": 5,
+        "post_time": "12:25",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 9,
+          "taikou": 2,
+          "tanana": 11,
+          "renka": [
+            3,
+            4
+          ],
+          "ana": [],
+          "upset": {
+            "taikou": 3,
+            "tanana": 5,
+            "renka": [
+              10,
+              4
+            ]
+          }
+        },
+        "verify": "ok",
+        "nonce": "a5dfdf0db945b560a77c575b78b81aaa"
+      }
+    }
+  ],
+  "result": {
+    "top3": [
+      {
+        "finish": 1,
+        "gate": 2
+      },
+      {
+        "finish": 2,
+        "gate": 9
+      },
+      {
+        "finish": 3,
+        "gate": 11
+      }
+    ]
+  },
+  "revealed_at": "2026-11-22T03:38:01.789Z"
+}
