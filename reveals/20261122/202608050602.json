@@ -1,0 +1,101 @@
+{
+  "schema": "keiba-public-reveal-v1",
+  "race_id": "202608050602",
+  "date": "2026-11-22",
+  "versions": [
+    {
+      "version": 1,
+      "sha256": "b24221428bf7e0c5b503dcdc138ce19c52bee67296982d2b22b89945f7b90256",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202608050602",
+        "date": "2026-11-22",
+        "venue": "京都",
+        "race_number": 2,
+        "post_time": "10:35",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 10,
+          "taikou": 6,
+          "tanana": 13,
+          "renka": [
+            9,
+            3
+          ],
+          "ana": [
+            5,
+            12,
+            11,
+            7
+          ],
+          "upset": {
+            "taikou": 6,
+            "tanana": 13,
+            "renka": [
+              2,
+              1
+            ]
+          }
+        },
+        "verify": "weight_pending",
+        "nonce": "c687c93d1d3b06e6f6f27b8af9727355"
+      }
+    },
+    {
+      "version": 2,
+      "stage": "final",
+      "sha256": "c2c2d0e5d23edb175f5e266a4b26a7fd69ae0fc5f1a0eaaff598f2355fa63b5c",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202608050602",
+        "date": "2026-11-22",
+        "venue": "京都",
+        "race_number": 2,
+        "post_time": "10:35",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 10,
+          "taikou": 6,
+          "tanana": 9,
+          "renka": [
+            13,
+            3
+          ],
+          "ana": [
+            2,
+            5,
+            11,
+            1
+          ],
+          "upset": {
+            "taikou": 13,
+            "tanana": 9,
+            "renka": [
+              6,
+              4
+            ]
+          }
+        },
+        "verify": "ok",
+        "nonce": "cd91e8019cfd6b486d003b790f0eb003"
+      }
+    }
+  ],
+  "result": {
+    "top3": [
+      {
+        "finish": 1,
+        "gate": 9
+      },
+      {
+        "finish": 2,
+        "gate": 4
+      },
+      {
+        "finish": 3,
+        "gate": 10
+      }
+    ]
+  },
+  "revealed_at": "2026-11-22T01:46:00.864Z"
+}
