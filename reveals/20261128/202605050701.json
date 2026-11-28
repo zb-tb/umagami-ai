@@ -1,0 +1,62 @@
+{
+  "schema": "keiba-public-reveal-v1",
+  "race_id": "202605050701",
+  "date": "2026-11-28",
+  "versions": [
+    {
+      "version": 1,
+      "sha256": "8de68510b81439076463553c01599b49a7e19daf25eeaae3222691ede150e0aa",
+      "payload": {
+        "schema": "keiba-public-v1",
+        "race_id": "202605050701",
+        "date": "2026-11-28",
+        "venue": "東京",
+        "race_number": 1,
+        "post_time": "09:50",
+        "model_version": "ensemble-4d5b0f646af8",
+        "marks": {
+          "honmei": 10,
+          "taikou": 12,
+          "tanana": 3,
+          "renka": [
+            6,
+            5
+          ],
+          "ana": [
+            9,
+            4,
+            1,
+            8
+          ],
+          "upset": {
+            "taikou": 12,
+            "tanana": 3,
+            "renka": [
+              5,
+              11
+            ]
+          }
+        },
+        "verify": "weight_pending",
+        "nonce": "63091be198b2717d7893ef1bbc29f94a"
+      }
+    }
+  ],
+  "result": {
+    "top3": [
+      {
+        "finish": 1,
+        "gate": 10
+      },
+      {
+        "finish": 2,
+        "gate": 6
+      },
+      {
+        "finish": 3,
+        "gate": 12
+      }
+    ]
+  },
+  "revealed_at": "2026-11-28T01:01:00.820Z"
+}
